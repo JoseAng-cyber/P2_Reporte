@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1794511052.28818 "c:/Users/BMO/Documents/P2_Reporte/Reporte_P2_Discontinuidades.tex" "Reporte_P2_Discontinuidades.pdf" "Reporte_P2_Discontinuidades" 1794511062.43232 0
+["pdflatex"] 1794511378.5099 "c:/Users/BMO/Documents/P2_Reporte/Reporte_P2_Discontinuidades.tex" "Reporte_P2_Discontinuidades.pdf" "Reporte_P2_Discontinuidades" 1794511383.44496 0
   "C:/Users/BMO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794265904 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/BMO/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1772756194 13332880 f999cab5da84173502954fe1a944361b ""
   "C:/Users/BMO/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -269,10 +269,10 @@
   "C:/Users/BMO/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/BMO/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/BMO/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Reporte_P2_Discontinuidades.aux" 1794511061 17539 670a04e8f2c90add3c1be0a6b80f6bca "pdflatex"
-  "Reporte_P2_Discontinuidades.out" 1794511061 7304 b8148fb6db27b13d2f06e45b572dee84 "pdflatex"
-  "Reporte_P2_Discontinuidades.tex" 1794511041 57166 e42ca2478be2d8b5a0e47ae306827561 ""
-  "c:/Users/BMO/Documents/P2_Reporte/Reporte_P2_Discontinuidades.tex" 1794511041 57166 e42ca2478be2d8b5a0e47ae306827561 ""
+  "Reporte_P2_Discontinuidades.aux" 1794511382 17423 6abba62774ff57f80ae516b9e4686428 "pdflatex"
+  "Reporte_P2_Discontinuidades.out" 1794511382 7196 107511b8ca29f2aa90af7bdbcfe9f302 "pdflatex"
+  "Reporte_P2_Discontinuidades.tex" 1794511367 56170 4272f0d8b07bf220ad5220d0446fd016 ""
+  "c:/Users/BMO/Documents/P2_Reporte/Reporte_P2_Discontinuidades.tex" 1794511367 56170 4272f0d8b07bf220ad5220d0446fd016 ""
   "figuras/fig0_geometria.pdf" 1794264835 21664 f819eb6af61b71be9f954e2562e505e8 ""
   "figuras/fig1_S11_dB.pdf" 1794264835 29797 669b1d4945f540aea4353c67d126912d ""
   "figuras/fig2_S21_dB.pdf" 1794264835 24069 c25aee382a5b8eb2ded784a3cb7a43e7 ""
