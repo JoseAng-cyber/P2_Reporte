@@ -1,5 +1,7 @@
 \documentclass[11pt,letterpaper]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
 \usepackage[margin=2.3cm]{geometry}
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
@@ -33,15 +35,28 @@
 \begin{document}
 \maketitle
 
-\begin{abstract}
+\section{Introducción}
+Las líneas de microcinta son ampliamente utilizadas en circuitos de radiofrecuencia (RF) debido a su fácil integración en placas de circuito impreso (PCB). Sin embargo, los requerimientos de enrutamiento introducen discontinuidades inevitables, como las curvas de \ang{90}. 
 
-\end{abstract}
+A bajas frecuencias, las dimensiones de la esquina son despreciables frente a la longitud de onda guiada ($\lambda_g$), pero al elevar la frecuencia hacia el rango de microondas, el tamaño de la esquina se vuelve comparable con la onda. Esto genera un desfase espacial, acumulación de carga capacitiva, reflexiones indeseadas ($S_{11}$) y radiación residual. 
+
+Este trabajo analiza el comportamiento electromagnético de una curva de \ang{90} sobre un sustrato Rogers RO4003C y evalúa la efectividad de una compensación geométrica mediante un chaflán del $55\%$, demostrando su capacidad para restablecer la continuidad de la impedancia y suprimir las reflexiones en todo el espectro.
 
 \section{Objetivo}
 Analizar mediante simulación el efecto que producen las discontinuidades geométricas y de material sobre la propagación de señales en una línea de microcinta, relacionando los resultados con la desadaptación de impedancias, la reflexión, la pérdida de inserción y los efectos capacitivos e inductivos parásitos. En este documento se estudian cinco: cuatro geométricas (una curva de \ang{90}, un cambio abrupto de ancho, un gap en serie y una unión en T) y un cambio de material a mitad de la línea.
 
 \section{Pregunta de investigación}
 ¿Cómo afectan las discontinuidades geométricas y de material la reflexión y la transmisión de señales en interconectores de microcinta conforme aumenta la frecuencia? ¿A partir de qué región de frecuencia su efecto es significativo y cuál es la explicación electromagnética? Las Secciones~\ref{sec:d1} a~\ref{sec:d5} responden esta pregunta para cada discontinuidad, y la Sección~\ref{sec:comparacion} compara las respuestas.
+
+\section{Introduccion}
+Las líneas de microcinta son canales de transmisión utilizados comúnmente en circuitos de radiofrecuencia (RF), ya que son fáciles de integrar y de fabricar en placas de circuitos impresos (PCB). Su funcionamiento se basa en una pista conductora situada sobre un sustrato dieléctrico que la separa de un plano de tierra. Mediante estos se propaga una onda electromagnética que transporta una señal a lo largo de la estructura.
+Sus características electromagnéticas dependen principalmente de la geometría de la pista, las propiedades del material dieléctrico y la frecuencia de operación.
+
+Durante su diseño, es importante mantener una impedancia característica determinada; esto garantiza una adecuada transferencia de energía y reduce reflexiones. Sin embargo, la distribución de los campos electromagnéticos y el comportamiento de la señal en general (sobre todo con frecuencias elevadas) pueden verse afectados por discontinuidades geométricas, como curvas, uniones, cambios de anchura, etc.
+
+Para analizar estos fenómenos se utilizan los parámetros de dispersión o parámetros S, estos permiten caracterizar el comportamiento de una microcinta mediante las ondas incidentes y reflejadas en sus puertos. Esto nos permite evaluar acoplamiento de impedancias, pérdidas o el desempeño en general.
+
+En este trabajo de investigación se estudió el comportamiento electromagnético de una discontinuidad geométrica correspondiente a una curva de 90° en una línea de microcinta, analizando su influencia sobre la reflexión y transmisión de la señal en función de la frecuencia. Comprender los efectos asociados a su geometría permite evaluar alternativas de compensación para mejorar sus características electromagnéticas.
 
 \section{Marco teórico}
 
